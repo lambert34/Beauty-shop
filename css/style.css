@@ -132,6 +132,7 @@ title {
 
 .catalog {
     padding-top: 100px;
+    padding-bottom: 140px;
 }
 
 .title-h2 {
@@ -243,7 +244,7 @@ title {
     display: flex;
     justify-content: space-between;
     color: #828282;
-    padding: 15px 0px;
+    padding: 25px 0px;
 }
 
 .footer-bottom p {
@@ -268,6 +269,7 @@ title {
 
 .footer-info span {
     font-size: 16px;
+    margin-left: 36px;
 }
 
 .footer-info button:hover {
@@ -277,7 +279,12 @@ title {
 .social {
     display: flex;
     align-items: center;
-    list-style-type: none; // убрал точки//
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.social-item {
+    margin-right: 20px;
 }
 
 .social-link {
@@ -286,4 +293,28 @@ title {
     width: 45px;
     height: 45px;
     border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.social-link-youtube {
+background-image: url(/img/ss/youtube.svg);
+}
+
+.social-link-vk {
+background-image: url(/img/ss/vk.svg);
+}
+
+.social-link-fb {
+    background-image: url(/img/ss/facebook.svg);
+}
+
+.social-link-instagram {
+    background-image: url(/img/ss/instagram.svg);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
